@@ -1,0 +1,32 @@
+.input-custom-dropdown {
+  input {
+    position: relative;
+  }
+
+  .list-item {
+    z-index: 1;
+    background: #ffffff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    .scroll-list {
+      overflow-y: auto;
+      max-height: 255px;
+    }
+    .item {
+      height: 50px;
+      border-bottom: 1px solid #d3d3d3;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      cursor: pointer;
+      span {
+        font-size: 16px;
+        color: #121212;
+      }
+    }
+  }
+}

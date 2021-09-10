@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'ng-control-value-accessor'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-control-value-accessor');
   });
 
   it('should render title', () => {
